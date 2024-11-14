@@ -74,7 +74,7 @@
     {
       "group": "Projects",
       "pages": [
-        "projects/index",
+        "projects/overview",
         "projects/darrell",
         "projects/jobfull",
         "projects/revenus",
