@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "thedatadavis",
+  "name": "Chris Davis (@thedatadavis)",
   "logo": {
     "light": "/logo/atthedd-black.png",
     "dark": "/logo/atthedd-light.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/btst-boot.svg",
   "layout": "solidSidenav",
   "colors": {
     "primary": "#701411",
@@ -19,66 +19,72 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:chris@bootstrapital.com?subject=Hi%20Chris%20-%20Let's%20chat"
     }
   ],
   "topbarCtaButton": {
     "name": "Work with Me",
-    "url": "https://the.datadavis.com/"
+    "url": "https://the.datadavis.com/services"
   },
   "primaryTab": {
-    "name": "Home"
+    "name": "Writings"
   },
   "tabs": [
     {
-      "name": "About",
+      "name": "About Me",
       "url": "about"
     },
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Projects",
+      "url": "projects"
+    },
+    {
+      "name": "Services",
+      "url": "services"
     }
   ],
   "navigation": [
     {
-      "group": "Quick Links",
+      "group": "General",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "posts/2024/index"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Startups",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "btst/index"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Data",
       "pages": [
-        "api-reference/introduction"
+        "data/index",
+        "data/httd/index"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "About Me",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "about/index",
+        "about/career-story"
       ]
     },
     {
-      "group": "About Example",
+      "group": "Projects",
       "pages": [
-        "about/index.mdx",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "projects/index",
+        "projects/darrell",
+        "projects/jobfull",
+        "projects/revenus",
+        "projects/werkfile"
+      ]
+    },
+    {
+      "group": "Services",
+      "pages": [
+        "services/index"
       ]
     }
   ],
